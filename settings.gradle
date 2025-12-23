@@ -16,3 +16,8 @@ rootProject.name = "Doll4ucky3"
 include ':caller:pepp3gip'
 include ':caller:doll4ucky3New'
 
+
+include ':draw:mkbattlenew'
+include ':draw:Hedgso4nik'
+include ':draw:Hedgso4nik2'
+

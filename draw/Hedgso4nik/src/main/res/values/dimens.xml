@@ -1,0 +1,27 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">0dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="margin_task">4dp</dimen>
+    <dimen name="margin_step">4dp</dimen>
+    <dimen name="margin_step_top">40dp</dimen>
+
+    <dimen name="task_toolbar_height">128dp</dimen>
+    <dimen name="task_toolbar_padding">4dp</dimen>
+    <dimen name="text_size_label">22sp</dimen>
+
+    <dimen name="loading_progress_bar_margin_vert">32dp</dimen>
+    <dimen name="loading_progress_bar_height">24dp</dimen>
+    <dimen name="loading_progress_bar_corner_radius">16dp</dimen>
+    <dimen name="text_size_splashscreen">48sp</dimen>
+
+    <dimen name="icon_size">256dp</dimen>
+
+    <dimen name="lesson_icon_padding">8dp</dimen>
+    <dimen name="lesson_icon_margin_vert">2dp</dimen>
+
+</resources>

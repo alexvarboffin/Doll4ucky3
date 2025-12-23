@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.appbar.AppBarLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/id_toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:theme="@style/Theme.D3rawletsGo.AppBarOverlay">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_title_toolbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            tools:text="Заголовок" />
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="right|center_vertical"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <androidx.appcompat.widget.AppCompatTextView-->
+<!--                android:id="@+id/tv_all_apps"-->
+<!--                android:layout_width="?attr/actionBarSize"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="right|center_vertical"-->
+<!--                android:layout_marginTop="@dimen/nav_header_vertical_spacing"-->
+<!--                android:layout_marginEnd="@dimen/nav_header_vertical_spacing"-->
+<!--                android:layout_marginBottom="@dimen/nav_header_vertical_spacing"-->
+<!--                android:text="@string/more_apps"-->
+<!--                tools:ignore="RtlHardcoded" />-->
+
+<!--            <ImageButton-->
+<!--                android:id="@+id/action_rate_app"-->
+<!--                android:layout_width="?attr/actionBarSize"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="right|center_vertical"-->
+<!--                android:layout_marginTop="@dimen/nav_header_vertical_spacing"-->
+<!--                android:layout_marginEnd="@dimen/nav_header_vertical_spacing"-->
+<!--                android:layout_marginBottom="@dimen/nav_header_vertical_spacing"-->
+<!--                android:background="@null"-->
+<!--                android:src="@drawable/ic_baseline_favorite_24"-->
+<!--                android:text="@string/more_apps"-->
+<!--                app:tint="@android:color/white"-->
+<!--                tools:ignore="ContentDescription,RtlHardcoded" />-->
+<!--        </LinearLayout>-->
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_all_apps"
+            android:layout_width="?attr/actionBarSize"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginTop="@dimen/nav_header_vertical_spacing"
+            android:layout_marginEnd="@dimen/nav_header_vertical_spacing"
+            android:layout_marginBottom="@dimen/nav_header_vertical_spacing"
+            android:text="@string/more_apps"
+            tools:ignore="RtlHardcoded" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+</com.google.android.material.appbar.AppBarLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="250dp"
+	android:layout_margin="@dimen/margin_task"
+	android:background="@drawable/row_task"
+	android:baselineAligned="false"
+	android:elevation="5dp"
+	android:gravity="center_vertical|center_horizontal"
+	android:orientation="vertical">
+<!--	#8BF4DAEB-->
+	<ImageView
+		android:id="@+id/imv_lesson"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_marginTop="@dimen/lesson_icon_margin_vert"
+		android:layout_weight="1"
+		android:adjustViewBounds="true"
+		android:padding="@dimen/lesson_icon_padding"
+		android:rotation="0"
+		android:scaleType="centerInside"
+		android:src="@drawable/placeholder_icon"
+		tools:ignore="ContentDescription" />
+
+
+	<!--    bg-#56FF0096#EC006D-->
+	<!--    android:minLines="2"-->
+
+	<TextView
+		android:id="@+id/tv_lesson_name"
+		style="@style/TextCardLabel1"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="bottom|center_horizontal"
+		android:layout_marginBottom="@dimen/lesson_icon_margin_vert"
+		android:gravity="bottom|center_horizontal"
+		android:text="@string/theme" />
+
+	<!--    #0C0417-->
+	<!--    #EC006D-->
+</LinearLayout>

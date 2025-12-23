@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/setka"
+    tools:context=".activities.DrawLessonStepsActivity">
+
+    <include
+        android:id="@+id/l_toolbar"
+        layout="@layout/toolbar" />
+
+    <include
+        android:id="@+id/adView"
+        layout="@layout/banner"/>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_gravity="center_vertical|center_horizontal"
+        ads:layout_constraintTop_toBottomOf="@+id/adView"
+        ads:layout_constraintStart_toStartOf="parent"
+        ads:layout_constraintEnd_toEndOf="parent"
+        ads:layout_constraintBottom_toTopOf="@id/ll_task_navigation"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/imv_icon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/margin_task"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:gravity="center_horizontal|center_vertical"
+            android:scaleType="fitCenter"
+            tools:ignore="ContentDescription"
+            tools:src="@drawable/placeholder_icon" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_task_navigation"
+        android:layout_height="64dip"
+        android:layout_width="0dp"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_marginTop="@dimen/margin_step"
+        android:layout_marginLeft="@dimen/margin_task"
+        android:layout_marginRight="@dimen/margin_task"
+        android:layout_marginBottom="@dimen/margin_task"
+        android:padding="@dimen/task_toolbar_padding"
+        android:weightSum="8"
+        ads:layout_constraintStart_toStartOf="parent"
+        ads:layout_constraintEnd_toEndOf="parent"
+        ads:layout_constraintBottom_toBottomOf="parent"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btn_previous"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:scaleType="fitXY"
+            android:background="@drawable/nalevo" />
+
+        <View
+            android:id="@+id/view_placeholder"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="4" />
+
+        <ImageButton
+            android:id="@+id/btn_next"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:scaleType="fitXY"
+            android:background="@drawable/napravo" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+<resources>
+
+    <style name="DrawerArrow" parent="@style/Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@android:color/white</item>
+    </style>
+
+    <style name="WindowAnimationStyle">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+
+    <style name="StartButtonTextView">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:fontFamily">@font/mk4</item>
+    </style>
+
+    <style name="TextLoadingTitle" parent="Theme.AppCompat">
+        <item name="android:textColor">#F2B225</item>
+        <item name="android:textSize">@dimen/text_size_splashscreen_title</item>
+        <item name="android:fontFamily">@font/mk4</item>
+<!--        <item name="android:shadowColor">#000000</item>-->
+<!--        <item name="android:shadowDx">6</item>-->
+<!--        <item name="android:shadowDy">6</item>-->
+<!--        <item name="android:shadowRadius">16</item>-->
+<!--        <item name="android:textStyle">bold</item>-->
+
+
+<!--        <item name="android:shadowColor">#A60202</item>-->
+<!--        <item name="android:shadowDx">12</item>-->
+<!--        <item name="android:shadowDy">16</item>-->
+<!--        <item name="android:shadowRadius">16</item>-->
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+</resources>

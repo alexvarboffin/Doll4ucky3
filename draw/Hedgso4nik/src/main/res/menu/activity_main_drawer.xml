@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_themes"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/title_themes" />
+
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@drawable/ic_baseline_feedback_24"
+            android:title="@string/write_to_us" />
+
+        <item
+            android:id="@+id/nav_rate"
+            android:icon="@drawable/ic_baseline_favorite_24"
+            android:title="@string/rate_us" />
+
+        <item
+            android:id="@+id/nav_all_apps"
+            android:icon="@drawable/ic_baseline_apps_24"
+            android:title="@string/all_apps" />
+
+        <item
+            android:id="@+id/nav_privacy_policy"
+            android:icon="@drawable/ic_baseline_privacy_tip_24"
+            android:title="@string/privacy_policy" />
+
+    </group>
+
+</menu>

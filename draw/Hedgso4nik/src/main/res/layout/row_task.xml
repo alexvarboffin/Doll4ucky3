@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:layout_margin="@dimen/margin_task"
+	android:gravity="center_vertical|center_horizontal"
+	android:baselineAligned="false"
+	android:orientation="vertical"
+	android:elevation="5dp"
+	android:background="@color/item_card_color">
+
+	<ImageView
+		android:id="@+id/imv_lesson"
+		android:layout_width="match_parent"
+		android:layout_height="300dp"
+		android:layout_marginTop="@dimen/lesson_icon_margin_vert"
+		android:layout_weight="1"
+		android:padding="@dimen/lesson_icon_padding"
+		android:rotation="0"
+		android:scaleType="centerInside"
+		android:src="@drawable/placeholder_icon"
+		tools:ignore="ContentDescription" />
+
+	<TextView
+		android:id="@+id/tv_lesson_name"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="@dimen/lesson_icon_margin_vert"
+		android:layout_gravity="bottom|center_horizontal"
+		android:gravity="bottom|center_horizontal"
+		style="@style/TextLabel"
+		android:text="@string/theme" />
+
+</LinearLayout>

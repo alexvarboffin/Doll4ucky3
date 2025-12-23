@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="ad_mob_banner_id" translatable="false">ca-app-pub-</string>
+
+
+    <string name="ad_mob_interstitial_id" translatable="false"></string>
+
+    <string name="url_privacy_policy" translatable="false">https://google.com</string>
+    <string name="url_google_play_dev" translatable="false">https://play.google.com/store/apps/dev?id=</string>
+    <string name="email_address" translatable="false"></string>
+
+</resources>

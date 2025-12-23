@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@android:id/background">
+        <shape>
+            <corners
+                android:bottomLeftRadius="@dimen/loading_progress_bar_corner_radius"
+                android:bottomRightRadius="@dimen/loading_progress_bar_corner_radius"
+                android:topLeftRadius="@dimen/loading_progress_bar_corner_radius"
+                android:topRightRadius="@dimen/loading_progress_bar_corner_radius" />
+
+            <gradient
+                android:angle="270"
+                android:centerColor="@color/black"
+                android:centerY="0.75"
+                android:endColor="@color/black"
+                android:startColor="@color/black" />
+        </shape>
+    </item>
+
+    <item android:id="@android:id/progress">
+        <scale android:scaleWidth="100%">
+            <shape>
+                <corners
+                    android:bottomLeftRadius="@dimen/loading_progress_bar_corner_radius"
+                    android:bottomRightRadius="@dimen/loading_progress_bar_corner_radius"
+                    android:topLeftRadius="@dimen/loading_progress_bar_corner_radius"
+                    android:topRightRadius="@dimen/loading_progress_bar_corner_radius" />
+
+                <gradient
+                    android:angle="270"
+                    android:endColor="@color/loading_progress_end"
+                    android:startColor="@color/loading_progress_start" />
+            </shape>
+        </scale>
+    </item>
+</layer-list>

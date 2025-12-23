@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".activities.ThemeTitleActivity">
+
+    <include
+        android:id="@+id/l_toolbar"
+        layout="@layout/toolbar" />
+
+    <include
+        android:id="@+id/adView"
+        layout="@layout/banner" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_weight="1"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="vertical"
+        ads:layout_constraintBottom_toTopOf="@id/ll_task_navigation"
+        ads:layout_constraintEnd_toEndOf="parent"
+        ads:layout_constraintStart_toStartOf="parent"
+        ads:layout_constraintTop_toBottomOf="@+id/adView">
+
+        <ImageView
+            android:id="@+id/imv_icon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_marginLeft="@dimen/margin_step"
+            android:layout_marginTop="@dimen/margin_step"
+            android:layout_marginRight="@dimen/margin_step"
+            android:layout_marginBottom="@dimen/margin_step"
+            android:gravity="center_horizontal|center_vertical"
+            android:rotation="0"
+            android:scaleType="centerInside"
+            tools:ignore="ContentDescription"
+            tools:src="@drawable/placeholder_icon" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_task_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/task_toolbar_height"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_marginHorizontal="@dimen/margin_task"
+        android:layout_marginVertical="@dimen/margin_task"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical"
+        ads:layout_constraintBottom_toBottomOf="parent"
+        ads:layout_constraintEnd_toEndOf="parent"
+        ads:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/tv_lesson_steps_number"
+            style="@style/TextLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center_horizontal"
+            android:gravity="top|center_horizontal"
+            android:text="@string/next_lesson" />
+
+        <!--        <ImageView-->
+        <!--            android:id="@+id/btn_next"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginTop="@dimen/margin_task"-->
+        <!--            android:layout_gravity="center_vertical"-->
+        <!--            android:src="@drawable/letsgo_new"-->
+        <!--            android:background="@color/background"-->
+        <!--            android:contentDescription="@string/next_lesson" />-->
+
+        <RelativeLayout
+            android:id="@+id/btn_next"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginRight="22dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/radion_button_1_bg"
+            android:elevation="10dp"
+            android:paddingStart="37dp"
+            android:paddingEnd="37dp">
+
+            <TextView
+                android:id="@+id/some_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:gravity="top"
+                android:text="@string/action_start"
+                android:textAppearance="@style/StartButtonTextView" />
+
+            <View
+                android:id="@+id/arrow_1"
+                android:layout_width="34dp"
+                android:layout_height="16dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/arrow_1" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
