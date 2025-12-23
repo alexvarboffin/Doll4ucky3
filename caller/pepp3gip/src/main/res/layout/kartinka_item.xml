@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/black">
+    <ImageView
+        android:id="@+id/kartinka"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/walp4"
+        android:scaleType="centerCrop"
+        android:background="@color/black"
+        tools:ignore="ContentDescription"
+        android:layout_marginBottom="37dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="10dp"
+        android:minHeight="300dp"
+        android:minWidth="168dp"/>
+
+</RelativeLayout>

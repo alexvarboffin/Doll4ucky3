@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="home_action_title">#FF0000</color>
+    <!--    <color name="home_action_button">#97DC21</color>-->
+    <color name="home_action_button">#F1BA00</color>
+
+    <color name="home_action_privacy">#FF0000</color>
+    <color name="home_action_rate_us">#FF0000</color>
+
+    <color name="home_background">#F1BA00</color>
+
+    <!--    <color name="home_background">#53E1BD</color>-->
+    <!--    <color name="home_background">#79ABF0</color>-->
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#D50000</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="blue">#00CCFF</color>
+    <color name="black">#FF000000</color>
+    <color name="black_trans">#99000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="green">#1DDE7D</color>
+    <color name="yel">#333333</color>
+    <color name="red">#FF0000</color>
+    <color name="colorAccent">#D50000</color>
+
+
+    <color name="home_button_icon_tint">#000000</color>
+    <color name="colorRadio">#D50000</color>
+
+</resources>

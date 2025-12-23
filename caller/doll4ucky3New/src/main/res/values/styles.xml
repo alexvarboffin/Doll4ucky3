@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ActionButton">
+        <item name="android:textColor">#D50000</item>
+        <item name="fontFamily">@font/comic_kings</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:shadowColor">#FF6D00</item>
+        <item name="android:shadowDx">12</item>
+        <item name="android:shadowDy">16</item>
+        <item name="android:shadowRadius">16</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextLoadingTitle" parent="Theme.AppCompat">
+        <item name="android:textColor">#F8F5F7</item>
+        <item name="android:textSize">@dimen/text_size_splashscreen_title</item>
+        <item name="android:fontFamily">@font/comic_kings</item>
+        <item name="android:shadowColor">#D50000</item>
+        <item name="android:shadowDx">12</item>
+        <item name="android:shadowDy">16</item>
+        <item name="android:shadowRadius">16</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextHomeName" parent="Theme.AppCompat">
+        <item name="android:textColor">@color/home_action_title</item>
+        <item name="android:shadowColor">#A60202</item>
+        <item name="android:shadowDx">12</item>
+        <item name="android:shadowDy">16</item>
+        <item name="android:shadowRadius">16</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+</resources>

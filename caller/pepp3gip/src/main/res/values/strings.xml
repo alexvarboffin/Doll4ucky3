@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="app_name">Call Pig</string>
+    <string name="home_title">Call Pig</string>
+    <string name="zvonyashiy">Peppa Pig</string>
+    <string name="silka_policy">https://google.com</string>
+
+    <string name="nomer">+1(555)2678777</string>
+    <string name="policy">PRIVACY POLICY</string>
+    <string name="reyting">RATE US</string>
+    <string name="knopka_call">CALL BY VOICE</string>
+    <string name="knopka_video_call">CALL BY VIDEO</string>
+    <string name="knopka_wallpapers">WALLPAPERS</string>
+    <string name="textreward">Watch ads to get wallpapers!\n1 ad = 1 wallpaper \nChoose wallpaper:</string>
+    <string name="tochka_timer1">10 sec</string>
+    <string name="tochka_timer2">30 sec</string>
+    <string name="tochka_timer3">60 sec</string>
+    <string name="knopka_timer_zvonok">CALL BY TIMER</string>
+    <string name="knopka_ustanovi_oboi">Watch video\nto set wallpaper</string>
+
+    <string name="silka_oceni_nas">https://play.google.com/store/apps/details?id=</string>
+    <string name="s2cheduled">Launched</string>
+
+    <string name="reklama_banner">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="reklama_inter">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="reklama_reward">ca-app-pub-3940256099942544/5224354917</string>
+
+
+</resources>

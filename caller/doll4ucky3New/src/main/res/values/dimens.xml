@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="action_button">22dp</dimen>
+    <dimen name="loading_progress_bar_height">24dp</dimen>
+    <dimen name="activity_horizontal_margin">18dp</dimen>
+    <dimen name="loading_progress_bar_margin_vert">32dp</dimen>
+    <dimen name="loading_progress_bar_corner_radius">16dp</dimen>
+    <dimen name="text_size_splashscreen_title">44sp</dimen>
+
+</resources>

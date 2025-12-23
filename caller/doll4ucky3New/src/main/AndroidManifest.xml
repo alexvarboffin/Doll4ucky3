@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.maybecallornot.scarydoll4call">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="28" />
+
+    <uses-feature android:name="android.hardware.camera.any" />
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.call3ekaf"
+        tools:ignore="UnusedAttribute">
+
+        <activity
+            android:name="com.maybecallornot.scarydoll4call.ActivitySplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.maybecallornot.scarydoll4call.ActivitySetOboi"
+            android:exported="false" />
+        <activity
+            android:name="com.maybecallornot.scarydoll4call.ActivityOboi"
+            android:exported="false" />
+        <activity
+            android:name="com.maybecallornot.scarydoll4call.ActivityVideoZvonok"
+            android:exported="false" />
+        <activity
+            android:name="com.maybecallornot.scarydoll4call.ActivityVoiceZvonok"
+            android:exported="false"
+            android:launchMode="singleTop"
+            android:showOnLockScreen="true" />
+        <activity
+            android:name="com.maybecallornot.scarydoll4call.ActivityGlavnaya"
+            android:exported="false"/>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/app_id" />
+    </application>
+
+</manifest>
